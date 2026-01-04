@@ -1,0 +1,18 @@
+To build and run A5, execute the following:
+    $ cd A4/
+    $ premake4 gmake
+    $ make
+    $ cd Assets
+    $ .././A4 ani.lua
+
+Objectives:
+    1. Texture mapping
+    2. Shadows
+    3. Reflections
+    4. Two interacting primitives
+    5. Sound
+    6. Anti-aliasing (extra)
+
+NOTE: I did not submit my A4 so I have implemented anti-aliasing as an extra feature 
+      from A4. I have not included it in the animation video because the rendering was 
+      too heavy for my computer to handle and it could only generate a few frames.
