@@ -1,18 +1,24 @@
-To build and run A5, execute the following:
-    $ cd A4/
-    $ premake4 gmake
-    $ make
-    $ cd Assets
-    $ .././A4 ani.lua
+# 📸 Ray Tracer: Animated Scene Rendering
+**Author:** Beenish Khan  
 
-Objectives:
-    1. Texture mapping
-    2. Shadows
-    3. Reflections
-    4. Two interacting primitives
-    5. Sound
-    6. Anti-aliasing (extra)
+A high-performance C++ Ray Tracer developed to simulate realistic light transport and physics-based interactions to create a 10s 3D Lua animation. This project follows the architecture of **"Ray Tracing in One Weekend"** and extends it with advanced rendering objectives.
 
-NOTE: I did not submit my A4 so I have implemented anti-aliasing as an extra feature 
-      from A4. I have not included it in the animation video because the rendering was 
-      too heavy for my computer to handle and it could only generate a few frames.
+
+---
+
+## 🎯 Project Objectives
+1. **Texture Mapping:** Spherical UV mapping using the LodePNG library.
+2. **Shadows:** Shadow ray casting with Epsilon offsets.
+3. **Reflections:** Recursive ray tracing for mirror-like surfaces.
+4. **Two Interacting Primitives:** Physics-based interaction (bouncing ball and plane).
+5. **Sound:** Synchronized audio for spatial interaction.
+6. **Anti-Aliasing (Extra):** Multi-sampling per pixel for smoothed edges.
+
+---
+
+## 🚀 Build & Run Instructions
+1. Run "premake4 gmake" in ./A4
+2. Run "make" in ./A4
+3. Navigate to ./A4/Assets
+4. Run ../A4 ani.lua 
+
